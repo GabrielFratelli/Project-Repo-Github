@@ -1,5 +1,5 @@
 import React from "react";
-import { useRouteMatch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'
 
 import logoImg from "../../assets/logo.svg";
@@ -11,7 +11,7 @@ interface RepositoryParams {
 }
 
 export const Repository: React.FC = () => {
-  const { params } = useRouteMatch<RepositoryParams>();
+  // const { params } = useRouteMatch<RepositoryParams>();
   
   return (
     <>

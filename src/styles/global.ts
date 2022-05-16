@@ -3,12 +3,12 @@ import { createGlobalStyle } from "styled-components"; // estou criando meu glob
 import githubBackground from '../assets/github_background.svg' // estou importando o svg
 
 export const GlobalStyle = createGlobalStyle`
+
   * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    border: 1px solid black;
   }
 
   body {
@@ -18,7 +18,6 @@ export const GlobalStyle = createGlobalStyle`
 
   body, input, button {
     font: 16px Roboto, sans-serif;
-    border: 1px solid black;
   }
 
   #root {

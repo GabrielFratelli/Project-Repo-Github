@@ -7,6 +7,6 @@ import { Repository } from "../pages/Repository";
 export const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Dashboard} />
-     <Route path="/repository" component={Repository} /> {/*esse path serve para ter 2 telas no site. */}
+     <Route path="/repositories:repository+" component={Repository} /> {/*esse path serve para ter 2 telas no site. */}
   </Switch>
 );
